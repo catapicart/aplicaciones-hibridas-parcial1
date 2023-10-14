@@ -1,0 +1,49 @@
+•Organizador Teacher's helper
+    Teacher: {
+        id:
+        username:
+        password:
+    }
+    Alumno :
+        {
+            id: 1
+            name: Juan Perez
+            age: 11
+            year: teens 2
+            class_id: teens 2 A 
+        }
+
+    Report :
+        {
+            id: 1
+            student_id: 1,
+            absences: 2
+            date: 23/10/2023
+            unit: 7
+            oral: 10
+            grammar: 9
+            writing: 8.5
+            listening: 9
+            homework: 10
+            reading: 10
+            comment: 
+        }
+    
+    Class :
+        {
+            id: 1
+            name: teens 2 A
+            year: teens 2
+            book: eyes open 2
+
+        }
+
+    Reminders: 
+        {
+            id: 1
+            title: Juan tiene que entregar la tarea
+            description: Entregar tarea de la pag 55
+            deadline: 12/11
+            class_id: 1
+            stundent_id: 1 (or null)
+        }
